@@ -1,0 +1,21 @@
+{
+  "appenders": {
+    "loglevel": {
+      "type": "file",
+      "filename": "log/ErrorLog.log",
+      "config.timezoneOffset": "Date().toUTCString()"
+    },
+    "errors": {
+      "type": "logLevelFilter",
+      "level": "ERROR",
+      "appender": "loglevel"
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": ["errors"],
+      "level": "DEBUG"
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Restapi",
+  "version": "1.0.0",
+  "description": "backend services",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 180000"
+  },
+  "author": "Arun Baruah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "config": "^1.26.2",
+    "findit": "^2.0.0",
+    "install": "^0.10.2",
+    "is-undefined": "^1.0.9",
+    "itchy": "^1.0.0",
+    "log4js": "^2.5.3",
+    "morgan": "^1.8.2",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.1.0",
+    "restify-router": "^0.5.0",
+    "revalidator": "^0.3.1",
+    "sequelize": "^4.33.3",
+    "util": "^0.10.3",
+    "uuid": "^3.1.0",
+    "yazl": "^2.4.1"
+  }
+}
