@@ -1,4 +1,4 @@
-const port = 8080;
+const port = 8080; //in production env, we maintain the post and other info in config
 const server = require('./appserver');
 const db = require('./models');
 
