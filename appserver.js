@@ -8,7 +8,7 @@ const userController = require('./controller/userController');
 //Origin, allowHeaders, exposeHeaders values needs tobe changed
 const cors = corsMiddleware({
   preflightMaxAge: 10, //Optional
-  origins: ['*', '*'],
+  origins: ['*', '*'], //for dev env only *,* in production we have explicitly mention the origins
   allowHeaders: ['API-Token', 'Authorization'],
   exposeHeaders: ['API-Token-Expiry']
 })
